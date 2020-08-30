@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Windiness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" target="_blank" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" target="_blank" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" target="_blank" href="temperature.html">Temperature</a>
+                        <a class="dropdown-item" target="_blank" href="windiness.html">Windiness</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" target="_blank" href="comparison.html">Comparison <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" target="_blank" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row m-4"></div>
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="container-bg right-margin p-5">
+                    <div class="">
+                        <h1 class="display-5 seagreen">Windiness</h1>
+                        <hr class="my-4">
+                        <img class="img-fluid w-100" src="assets/images/lat_vs_wind.png" alt="Wind Map">
+                        <br>
+                        <br>
+                        <p>Wind speed as compared to latitude appears to show no discernable trends. In the northern
+                            hemisphere, there is perhaps a slight positive correlation between increased wind speed and
+                            higher latitudes.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 container-bg p-5">
+                <div class="">
+                    <h2 class="text-left seagreen display-5">Visualizations</h2>
+                </div>
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="thumbnail">
+                            <a target="_blank" href="cloudiness.html">
+                                <img class="img-fluid" src="assets/images/lat_vs_cloudiness.png" alt="Cloudy Map">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="thumbnail">
+                            <a target="_blank" href="humidity.html">
+                                <img class="img-fluid" src="assets/images/lat_vs_humidity.png" alt="Humidity Map">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="thumbnail">
+                            <a target="_blank" href="temperature.html">
+                                <img class="img-fluid" src="assets/images/lat_vs_temp.png" alt="Tempurature Map">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="thumbnail">
+                            <a target="_blank" href="windiness.html">
+                                <img class="img-fluid" src="assets/images/lat_vs_wind.png" alt="Wind Map">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <style type="text/css"></style>
+</body>
+
+</html>
